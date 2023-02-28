@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+<head>
+			<title> sub menu</title>
+			<style>
+					*{ 
+						margin:0px;
+						padding:0px;
+					}
+					.main{
+						 height:80px;
+						 background-color:yellow;
+						 display:flex;
+							}
+					.mainlist{
+								list-style:none;
+								margin:30px;
+								border:2px solid red;
+								border-radius:20px;
+								background-color:gray;
+							}
+					.sub{ 
+							list-style:none;
+							line-height:90px;
+							
+					     
+					     }
+						 
+					.sublist
+					         {
+							 visibility:hidden;
+							 }	 
+					.main:hover .sublist
+					                  {
+							            visibility:visible;
+					                  }
+					.sub1{ 
+							list-style:none;
+							line-height:90px;
+							
+					     
+					     }
+						 
+					.sublist1
+					         {
+							 visibility:hidden;
+							 }	 
+					.main:hover .sublist1
+					                  {
+							            visibility:visible;
+					                  }
+			</style>
+</head>
+<body>
+			<div class="main">
+					<li class="mainlist">Home
+							<ul class="sub">
+								<li class="sublist">page 1</li>
+								<li class="sublist">page 1</li>
+								<li class="sublist">page 1</li>
+								<li class="sublist">page 1</li>
+							</ul>
+							</li>
+					<li class="mainlist">About
+					      <ul class="sub1">
+								<li class="sublist1">page 1</li>
+								<li class="sublist1">page 1</li>
+								<li class="sublist1">page 1</li>
+								<li class="sublist1">page 1</li>
+							</ul>
+					</li>
+					<li class="mainlist">Introduction</li>
+					<li class="mainlist">Contac us</li>
+					
+			</div>
+</body>
+</html>
